@@ -1,0 +1,41 @@
+.wrapper1 {
+  height: 50px;
+  background-color: rgb(41, 41, 187);
+}
+.wrapper1 .container .row .col-6 {
+  color: white;
+  display: flex;
+  padding: 5px;
+}
+.wrapper1 .container .row .col-6 .icons-part1 a {
+  color: white;
+}
+.wrapper1 .container .row .col-6 .icons-part1 a i {
+  padding: 10px;
+}
+.wrapper1 .container .row .col-6 .icons-part1 a i:hover {
+  color: red;
+}
+.wrapper1 .container .row .col-6 .icons-part2 {
+  display: flex;
+  padding: 5px;
+}
+.wrapper1 .container .row .col-6 .icons-part2 .icon {
+  padding-left: 15px;
+}
+.wrapper1 .container .row .col-6 .icons-part2 .icon i {
+  color: red;
+}
+.wrapper1 .container .row .col-6 .icons-part2 .icon a {
+  color: white;
+}
+.wrapper1 .container .row .col-6 .icons-part2 .email {
+  padding-left: 10px;
+}
+.wrapper1 .container .row .col-6 .icons-part2 .email i {
+  padding-left: 15px;
+  color: red;
+}
+.wrapper1 .container .row .col-6 .icons-part2 .email a {
+  color: white;
+}/*# sourceMappingURL=first_navbar.css.map */

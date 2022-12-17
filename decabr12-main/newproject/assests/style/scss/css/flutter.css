@@ -1,0 +1,118 @@
+.wrapper8 {
+  height: 800px;
+  margin-top: 100px;
+  background-color: #192546;
+  color: white;
+}
+.wrapper8 .container {
+  padding-top: 300px;
+}
+.wrapper8 .container .row .col-3 {
+  font-size: 20px;
+}
+.wrapper8 .container .row .col-3 .col-3-card1 img {
+  height: 40px;
+  width: 200px;
+}
+.wrapper8 .container .row .col-3 .col-3-card1 p {
+  padding: 20px 0 10px 0;
+}
+.wrapper8 .container .row .col-3 .col-3-card2 p {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.wrapper8 .container .row .col-3 .col-3-card2 h5 {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.wrapper8 .container .row .col-3 .col-3-card2 i {
+  height: 20px;
+  padding-right: 20px;
+  color: skyblue;
+}
+.wrapper8 .container .row .col-3 .col-3-card2 a {
+  color: red;
+}
+.wrapper8 .container .row .col-3 .col-3-card4 {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper8 .container .row .col-3 .col-3-card4 h5 {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.wrapper8 .container .row .col-3 .col-3-card4 #date_flotter {
+  color: rgb(146, 144, 144);
+}
+.wrapper8 .container .row .col-3 .col-3-card4 #date_flotter1 {
+  color: rgb(148, 147, 147);
+}
+.wrapper8 .container .row .col-3 .col-3-card4 #date_flotter2 {
+  color: rgb(144, 142, 142);
+}
+.wrapper8 .container .row .col-3 .col-3-card3 h5 {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.wrapper8 .container .row .col-3 .col-3-card3 p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.wrapper8 .container .row .col-3 .col-3-card3 a {
+  color: white;
+}
+.wrapper8 .container .row .col-3 .col-3-card3 ul {
+  padding-top: 20px;
+  padding-left: 0px;
+}
+.wrapper8 .container .row .col-3 .col-3-card3 ul li {
+  margin-right: 15px;
+}
+.wrapper8 .container .row .col-3 .col-3-card3 ul li .fa-google-plus-g {
+  padding: 20px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: rgb(221, 47, 47);
+  color: white;
+}
+.wrapper8 .container .row .col-3 .col-3-card3 ul li .fa-facebook-f {
+  padding: 20px 25px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: rgb(48, 48, 229);
+  color: white;
+}
+.wrapper8 .container .row .col-3 .col-3-card3 ul li .fa-basketball {
+  padding: 20px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: rgb(225, 73, 98);
+  color: white;
+}
+.wrapper8 .container .row .col-3 .col-3-card3 ul li .fa-twitter {
+  padding: 20px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: skyblue;
+  color: white;
+}
+.wrapper8 .container .row .col-3 .col-3-card3 ul li .fa-google-plus-g:hover {
+  background-color: white;
+  color: red;
+}
+.wrapper8 .container .row .col-3 .col-3-card3 ul li .fa-facebook-f:hover {
+  background-color: white;
+  color: rgb(60, 60, 216);
+}
+.wrapper8 .container .row .col-3 .col-3-card3 ul li .fa-twitter:hover {
+  background-color: white;
+  color: skyblue;
+}
+.wrapper8 .container .row .col-3 .col-3-card3 ul li .fa-basketball:hover {
+  background-color: white;
+  color: rgb(225, 73, 98);
+}/*# sourceMappingURL=flutter.css.map */

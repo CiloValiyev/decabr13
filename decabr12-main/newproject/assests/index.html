@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Header -->
 
 <head>
     <meta charset="UTF-8">
@@ -26,8 +27,10 @@
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
 </head>
+<!-- Body -->
+
 <body>
-    <button id="top-button"><i class="fa-solid fa-chevron-up"></i></button>
+    <button onclick="topFunction()" id="top-button"><i class="fa-solid fa-chevron-up"></i></button>
     <!-- section1 -->
     <section class="wrapper1">
         <div class="container">
@@ -72,6 +75,13 @@
                 <i id="search" class="fa-solid fa-magnifying-glass"></i>
                 <button id="get_start_now_btn">Get Start Now</button>
             </div>
+            <div id="myModal1" class="modal1">
+                <div class="modal-content">
+                    <span class="close1">&times;</span>
+                    <input type="text" placeholder="Search...">
+                    <i id="search" class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
         </div>
     </section>
     <!-- Section3 -->
@@ -89,7 +99,7 @@
     <section class="wrapper4">
         <div class="container">
             <div class="row">
-                <div class="col-6">
+                <div class="col-6 col-lg-12 col-md-12 col-s-12">
                     <img id="myImg" src="http://html.commonsupport.xyz/2019/Barnet/images/resource/products/13.jpg"
                         alt="shoes">
                     <div id="myModal" class="modal">
@@ -98,7 +108,7 @@
                         <div id="caption"></div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-6 col-lg-12 col-md-12 col-s-12">
                     <div class="box1">
                         <h2>Winter Walking Shoes</h2>
                         <p id="mony">$29.00</p>
@@ -157,7 +167,6 @@
             </div>
         </section>
     </div>
-
     <!-- Section6 -->
     <hr>
     <div data-aos="fade-up-left">
@@ -239,7 +248,7 @@
             <h1>Raleted Products</h1>
             <div class="row">
                 <div class="swiper mySwiper">
-                    <div class="swiper-wrapper">                    
+                    <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="card-container">
                                 <div class="img_relativ">
@@ -344,7 +353,7 @@
                                 <p>Side-Tie Tank</p>
                                 <p>$40.75</p>
                             </div>
-                        </div>                      
+                        </div>
                         <div class="swiper-slide">
                             <div class="card-container">
                                 <div class="img_relativ">
@@ -381,6 +390,94 @@
             </div>
         </div>
     </section>
+    <!-- Section8 -->
+    <div class="Subscribe-to-Our-Newsletter">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h1>Subscribe to Our Newsletter</h1>
+                </div>
+                <div class="col-6">
+                    <input id="input-subscribe" type="email" placeholder="Your Email">
+                    <button id="btn-subscribe">SUBSCRIBE NOW</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="wrapper8">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 col-lg-4 col-md-6 col-s-12">
+                    <div class="col-3-card1">
+                        <img src="http://html.commonsupport.xyz/2019/Barnet/images/footer-logo.png" alt="">
+                        <p>Lorem ipsum dolor amet consecte adipisicing elit sed eiusm tempor incididunt ut labore dolore
+                            magna aliqua enim ad minim veniam. quis nostrud exercitation ullam</p>
+                        <p>Duis aute irure dolor in reprehend it in voluptate velit cillum.dolore eu fugiat nulla.</p>
+                    </div>
+                </div>
+                <div class="col-3 col-lg-4 col-md-6 col-s-12">
+                    <div class="col-3-card2">
+                        <h5>Twitter Feeds</h5>
+                        <i class="fa-brands fa-twitter"></i>
+                        <span>Kirstin Hagel
+                            @KirstinHagel . 7 Dec</span>
+                        <p>Excepteur sint occaecat cupidatat proent. <a
+                                href="https://T.Co/Sr45bvMJU6">https://T.Co/Sr45bvMJU6</a></p>
+                        <i class="fa-brands fa-twitter"></i>
+                        <span>Kirstin Hagel
+                            @KirstinHagel . 7 Dec</span>
+                        <p>Excepteur sint occaecat cupidatat proent. <a
+                                href="https://T.Co/Sr45bvMJU6">https://T.Co/Sr45bvMJU6</a></p>
+                    </div>
+                </div>
+                <div class="col-3 col-lg-4 col-md-6 col-s-12">
+                    <div class="col-3-card4">
+                        <h5>Latest Articles</h5>
+                        <div>
+                            <p id="date_flotter"></p>
+                            <p>Aspernatur aut odit fugit quia</p>
+                        </div>
+                        <div>
+                            <p id="date_flotter1"></p>
+                            <p>Aspernatur aut odit fugit quia</p>
+                        </div>
+                        <div>
+                            <p id="date_flotter2"></p>
+                            <p>Aspernatur aut odit fugit quia</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-3 col-lg-4 col-md-6 col-s-12">
+                    <div class="col-3-card3">
+                        <h5>Contact Info</h5>
+                        <p>Flat 20, Reynolds Neck, North Hele
+                            naville, FV77 8WS</p>
+                        <p>+2(305) 587-3407</p>
+                        <a href="info@barnet.com">info@barnet.com</a>
+                        <ul style="display: flex;">
+                            <li><i class="fa-brands fa-google-plus-g"></i></li>
+                            <li><i class="fa-brands fa-facebook-f"></i></li>
+                            <li><i class="fa-solid fa-basketball"></i></li>
+                            <li><i class="fa-brands fa-twitter"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section9 -->
+    <section class="wrapper9">
+        <div class="end-part1">
+            <span>Barnet © 2019 All Right Reserved</span>
+        </div>
+        <div class="end-part2">
+            <a id="border-right" href="">Terms of Service</a>
+
+            <a href="">Privacy Policy</a>
+        </div>
+    </section>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js"
         integrity="sha512-tWHlutFnuG0C6nQRlpvrEhE4QpkG1nn2MOUMWmUeRePl4e3Aki0VB6W1v3oLjFtd0hVOtRQ9PHpSfN6u6/QXkQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -388,7 +485,6 @@
     <script src="https://momentjs.com/downloads/moment.js"></script>
     <script src="./app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
     <!-- Initialize Swiper -->
     <script>
         var swiper = new Swiper(".mySwiper", {

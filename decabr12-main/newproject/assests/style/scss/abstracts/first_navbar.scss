@@ -1,0 +1,58 @@
+.wrapper1 {
+    height: 50px;
+    background-color: rgb(41, 41, 187);
+  
+    .container {
+      .row {
+        .col-6 {
+          color: white;
+          display: flex;
+          padding: 5px;
+  
+          .icons-part1 {
+            a {
+              color: white;
+  
+              i {
+                padding: 10px;
+              }
+  
+              i:hover {
+                color: red;
+              }
+            }
+          }
+  
+          .icons-part2 {
+            display: flex;
+            padding: 5px;
+  
+            .icon {
+              padding-left: 15px;
+  
+              i {
+                color: red;
+              }
+  
+              a {
+                color: white;
+              }
+            }
+  
+            .email {
+              padding-left: 10px;
+  
+              i {
+                padding-left: 15px;
+                color: red;
+              }
+  
+              a {
+                color: white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }

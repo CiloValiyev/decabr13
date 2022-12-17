@@ -1,0 +1,123 @@
+.wrapper2 {
+  height: 100px;
+  background-color: white;
+  transition: 0.6;
+  width: 100%;
+  z-index: 999999;
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 0 30px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    #get_start_now_btn {
+      border: none;
+      padding: 10px;
+      background-color: rgb(192, 71, 71);
+      color: white;
+      border-radius: 20px;
+      width: 150px;
+      margin-left: 10px;
+    }
+
+    .modal1 {
+      display: none;
+      /* Hidden by default */
+      position: fixed;
+      /* Stay in place */
+      z-index: 1;
+      /* Sit on top */
+      padding-top: 100px;
+      /* Location of the box */
+      left: 800px;
+      top: 50px;
+      width: 400px;
+      /* Full width */
+      height: 100%;
+      /* Full height */
+    }
+
+    /* Modal Content */
+    .modal-content {
+      background-color: #fefefe;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+
+      input {
+        position: relative;
+        height: 40px;
+        width: 250px;
+        padding: 20px;
+        background-color: rgb(241, 239, 235);
+      }
+
+      i {
+        position: absolute;
+        top: 65px;
+        left: 220px;
+        z-index: 999999999999;
+      }
+    }
+
+    /* The Close Button */
+    .close1 {
+      color: #aaaaaa;
+      float: right;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .close1:hover,
+    .close1:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    #get_start_now_btn:hover {
+      font-size: 15px;
+      background-color: darkred;
+    }
+
+    ul {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      gap: 40px;
+
+      li {
+        a {
+          color: black;
+          font-size: 20px;
+          height: 100px;
+          width: 100px;
+        }
+      }
+
+      li:hover {
+        text-align: center;
+        height: 100%;
+        transition: 0.9s;
+        background-color: red;
+      }
+
+      li::before {
+        position: absolute;
+        content: '';
+        background-color: #ff4747;
+        left: 0;
+        top: 0;
+        color: white !important;
+        opacity: 1 !important;
+        transition: .5s ease;
+      }
+    }
+  }
+
+}

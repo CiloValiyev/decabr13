@@ -1,0 +1,136 @@
+.wrapper8 {
+    height: 800px;
+    margin-top: 100px;
+    background-color: #192546;
+    color: white;
+  
+    .container {
+      padding-top: 300px;
+  
+      .row {
+        .col-3 {
+          font-size: 20px;
+          .col-3-card1 {
+            img {
+              height: 40px;
+              width: 200px;
+            }
+  
+            p {
+              padding: 20px 0 10px 0;
+            }
+          }
+          .col-3-card2 {
+            p {
+              padding-top: 30px;
+              padding-bottom: 20px;
+            }
+  
+            h5 {
+              font-size: 30px;
+              padding-bottom: 20px;
+            }
+  
+            i {
+              height: 20px;
+              padding-right: 20px;
+              color: skyblue;
+            }
+  
+            a {
+              color: red;
+            }
+          }
+          .col-3-card4{
+            display: flex;
+            flex-direction: column;
+            h5{
+              font-size: 30px;
+              padding-bottom: 20px;
+            }
+            #date_flotter{
+              color: rgb(146, 144, 144);
+            }
+            #date_flotter1{
+              color: rgb(148, 147, 147);
+            }
+            #date_flotter2{
+              color: rgb(144, 142, 142);
+            }
+            
+          }
+          .col-3-card3 {
+            h5 {
+              font-size: 30px;
+              padding-bottom: 20px;
+            }
+  
+            p {
+              padding-top: 20px;
+              padding-bottom: 20px;
+            }
+            a{
+              color: white;
+            }
+            ul {
+              padding-top: 20px;
+              padding-left: 0px;
+  
+              li {
+                margin-right: 15px;
+                .fa-google-plus-g {
+                  padding: 20px;
+                  height: 60px;
+                  width: 60px;
+                  border-radius: 50%;
+                  background-color: rgb(221, 47, 47);
+                  color: white;
+                }
+                .fa-facebook-f{
+                  padding: 20px 25px;
+                  height: 60px;
+                  width: 60px;
+                  border-radius: 50%;
+                  background-color: rgb(48, 48, 229);
+                  color: white;
+                }
+                .fa-basketball{
+                  padding: 20px;
+                  height: 60px;
+                  width: 60px;
+                  border-radius: 50%;
+                  background-color: rgb(225, 73, 98);
+                  color: white;
+                }
+                .fa-twitter{
+                  padding: 20px;
+                  height: 60px;
+                  width: 60px;
+                  border-radius: 50%;
+                  background-color: skyblue;
+                  color: white;
+                }
+                .fa-google-plus-g:hover {
+                  background-color: white;
+                  color: red;
+                }
+                .fa-facebook-f:hover{
+                  background-color: white;
+                  color: rgb(60, 60, 216);
+                }
+                .fa-twitter:hover{
+                  background-color: white;
+                  color: skyblue;
+                }
+                .fa-basketball:hover{
+                  background-color: white;
+                  color: rgb(225, 73, 98) ;
+                }
+              }
+  
+            }
+          }
+        }
+      }
+    }
+  }

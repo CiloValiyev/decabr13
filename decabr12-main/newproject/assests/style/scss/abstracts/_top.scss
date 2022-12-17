@@ -1,0 +1,72 @@
+#top-button {
+  display: none;
+  position: fixed;
+  height: 80px;
+  width: 80px;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 50%;
+  right: 5%;
+  bottom: 5%;
+  z-index: 999999;
+
+  padding: 20px;
+  margin: 50px auto;
+  -webkit-animation: breathing 7s ease-out infinite normal;
+  animation: breathing 7s ease-out infinite normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+@-webkit-keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  25% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  60% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  25% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  60% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+#top-button:hover {
+  background-color: rgb(167, 12, 12);
+  font-size: 25px;
+}

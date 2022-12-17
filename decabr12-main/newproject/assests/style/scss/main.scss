@@ -1,2 +1,6 @@
 @import "./abstracts/style";
-@import "./base/reset","./base/grid";
+@import "./abstracts/top";
+@import "./abstracts/first_navbar.scss";
+@import "./abstracts/second_navbar.scss";
+@import "./abstracts/flutter.scss";
+@import "./base/reset", "./base/grid";
